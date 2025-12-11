@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#header{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(236, 164, 164);
+    position: fixed;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#TECHSPIRE{
+    margin-left: 40px;
+}
+#LOGIN{
+    margin-left: 40px;
+}
+#contact{
+    margin-left: 40px;
+}
+#aboutus{
+    margin-left: 40px;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+#image{
+    height: 100%;
+    width: 100%;
+    margin: 40px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    object-fit: fill;
+}
+#tc{
+    background-color: antiquewhite;
+    position: fixed;
+}
+#TECHSPIRE:hover{
+    color: blue;
+    cursor: pointer;
+}
+#LOGIN:hover{
+    color: blue;
+    cursor: pointer;
+}
+#contact:hover{
+    color: blue;
+    cursor: pointer;
+}
+#aboutus:hover{
+    color: blue;
+    cursor: pointer;
+}
+#logo{
+    height: 80px;
+    width: 80px;
+}
