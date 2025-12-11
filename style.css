@@ -9,7 +9,6 @@ html,body{
 .main{
     height: 100%;
     width: 100%;
-    display: flex;
 }
 #header{
     height: 15%;
@@ -37,10 +36,11 @@ html,body{
 #page1{
     height: 100%;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 0px;
     display: flex;
     justify-content: center;
     text-align: center;
+    object-fit: fill;
     
 }
 #image{
@@ -50,12 +50,11 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
     object-fit: fill;
 }
 #tc{
     background-color: antiquewhite;
-    position: fixed;
+    margin-top: 100px;
 }
 #TECHSPIRE:hover{
     color: blue;
@@ -76,4 +75,76 @@ html,body{
 #logo{
     height: 80px;
     width: 80px;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    object-fit: fill;
+    background-color: beige;
+    margin: 50px;
+}
+#para{
+    margin: 70px;
+    font-size: 20px;
+    color: darkcyan;
+}
+#Login{
+    height: 30px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#form{
+    margin-left: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#CONTACT{
+    align-items: center;
+    justify-content: center;
+
+}
+#para2{
+    margin: 70px;
+    font-size: 20px;
+    color: darkcyan;
+}
+#img1{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#img2{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#img3{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#img4{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#flex{
+    display: flex;
+    justify-content: center;
 }
